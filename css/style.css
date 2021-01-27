@@ -2132,3 +2132,20 @@ figure {
 		padding: 30px 30px 10px;
 	}
 }
+
+.block {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.block h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.block p {
+		font-size: 18px;
+		font-weight: 500;
+	}
+}
