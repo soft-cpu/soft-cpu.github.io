@@ -2149,3 +2149,58 @@ figure {
 		font-weight: 500;
 	}
 }
+@media only screen and (max-width: 440px) {
+	. {
+		display: block;
+	}
+}
+@media only screen and (min-width: 440px) {
+	.menu{
+		display: none;
+	}
+}
+@media only screen and (max-width: 440px) {
+	.menu{
+		display: inline-block;
+	}
+}
+
+.menu {
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+
+.menu-mod li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	margin-left: 25px;
+	position: relative;
+	cursor: pointer;
+}
+
+.menu-mod li:last-child {
+	margin-right: 0;
+}
+
+.menu-mod li:last-child:after {
+	display: none;
+}
+
+.
+menu-mod li:after {
+	position: absolute;
+	content: "";
+	height: 25px;
+	width: 1px;
+	right: -34px;
+	top: 3px;
+	background: #414141;
+	-webkit-transform: skewX(-20deg);
+	-ms-transform: skewX(-20deg);
+	transform: skewX(-20deg);
+}
