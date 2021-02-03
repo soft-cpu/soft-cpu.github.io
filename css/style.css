@@ -619,7 +619,7 @@ figure {
 .featured-item {
 	display: block;
 	position: relative;
-	border: 4px solid #cc87d3;
+	border: 4px solid #ba88d4;
 	
 }
 
@@ -2178,9 +2178,9 @@ figure {
 	font-size: 18px;
 	font-weight: 700;
 	text-align: center;
-	margin-left: 19px;
-	position: relative;
+	margin-left: 10px;
 	cursor: pointer;
+	color:#c488d4;
 }
 
 .menu-mod li:last-child {
