@@ -24,7 +24,7 @@
             items: 1,
             loop: true,
             nav: true,
-            navText: ['Prev', 'Next'],
+            navText: ['Пред.', 'След.'],
             dots: false,
             autoplay: true,
             autoplayTimeout: 10000,
@@ -106,7 +106,7 @@
     if ($.fn.scrollUp) {
         browserWindow.scrollUp({
             scrollSpeed: 1500,
-            scrollText: '<i class="fa fa-angle-up"></i> Top'
+            scrollText: '<i class="fa fa-angle-up"></i> Вверх'
         });
     }
 
