@@ -1853,7 +1853,7 @@ figure {
 		margin-right: 80px;
 	}
 	.intro-slider .intro-item {
-		padding: 130px;
+		padding: 130px; 
 	}
 }
 
@@ -1868,7 +1868,7 @@ figure {
 		font-size: 60px;
 	}
 	.intro-slider .intro-item {
-		padding: 500px;
+		padding: 5px;
 	}
 	.product-item .pi-meta .pi-m-left {
 		padding: 0 20px;
